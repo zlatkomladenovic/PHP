@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>formular</title>
+	</head>
+<body>
+	<form action="register.php" method="post">
+		<label>
+			Ime<br/>
+			<input type="text" name="ime"/>
+		</label>
+		<br/>
+		<label>
+			Prezime<br/>
+			<input type="text" name="prezime"/>
+		</label>
+		<br/>
+		<label>
+			Godina na raganje<br/>
+			<input type="date" name="godina"/>
+		</label>
+		<br/>
+		<label>
+			Email<br/>
+			<input type="email" name="email"/>
+		</label>
+		<br/>
+		<label for="password">
+			Password<br/>
+			<input type="text" name="password" id="pwd1"/>
+		</label>
+		<br/>
+		<label for="retype password">
+			Retype password<br/>
+			<input type="text" name="retype password" id="pwd2"/>
+		</label>
+		<br/>
+		<label>
+			Drzava<br/>
+			<select name="drzava">
+			  <option value="makedonija">Makedonija</option>
+			  <option value="srbija">Srbija</option>
+			  <option value="hrvatska">Hrvatska</option>
+		</select>	
+		</label>
+		<br/><br/>
+		<button type="submit">Submit</button>
+	</form>
+</body>
+</html>
