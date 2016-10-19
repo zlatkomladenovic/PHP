@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Алтра Мода - Почетна</title>
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" sizes="16x16">
+		<link rel="stylesheet" href="styles/global.css">
+		<link rel="stylesheet" href="styles/reset.css">
+		<link href='https://fonts.googleapis.com/css?family=Exo+2:400,100,300' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+		<link rel="stylesheet" href="styles/animate.css">
+		<script src="js/wow.min.js"></script>
+		<script type="text/javascript" src="js/header.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	</head>
+
+<!-- Header script -->
+		<script>
+			function init() {
+    			window.addEventListener('scroll', function(e){
+        		var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+            	shrinkOn = 50,
+            	header = document.querySelector("header");
+        			if (distanceY > shrinkOn) {
+            		classie.add(header,"smaller");
+        				} else {
+            		if (classie.has(header,"smaller")) {
+                	classie.remove(header,"smaller");
+           		    	}
+        			}
+    			});
+			}
+			window.onload = init();
+		</script>
+<!-- End of Header script-->
+
+<!-- Scrolling script -->
+	    <script>
+	    	new WOW().init();
+	    </script>
+<!-- End of Scrolling script -->
+
+<!-- Slider script -->
+		<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+		<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End of Slider script -->
+
+<!-- Banner script -->
+		<script type="text/javascript" charset="utf-8" src="edge_includes/edge.6.0.0.min.js"></script>
+  		<style>
+        	.edgeLoad-altra_banner { visibility:hidden; }
+    	</style>
+    	<script>
+		   AdobeEdge.loadComposition('Banner', 'altra_banner', {
+			    scaleToFit: "none",
+			    centerStage: "none",
+			    minW: "0px",
+			    maxW: "undefined",
+			    width: "240px",
+			    height: "400px"
+			}, {dom: [ ]}, {dom: [ ]});
+		</script>
+<!-- End of Banner script -->
+
+	<body>
+
+<!-- Start of Header -->
+	<header>
+		<a href="#">
+		<img src="img/Logo.png" alt="Altra Moda logo">
+		</a>
+		<hr>
+		<div class="nav-wrapper">
+			<nav>
+				<ul>
+					<li><a href="index.html">почетна</a></li>
+					<li><a href="new_products.html" target="_blank">ново</a></li>
+					<li><a href="#" target="_blank">колекција</a></li>
+					<li><a href="#" target="_blank">промоции</a></li>
+					<li><a href="#" target="_blank">контакт</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+<!-- End of Header -->
+
+<!-- Go to Top -->
+<div class="go-top"></div>
+		<script>
+			$(function(){
+
+			  $(window).scroll(function(){
+			    var scrolled = $(window).scrollTop();
+			    if (scrolled > 300) $('.go-top').fadeIn('slow');
+			    if (scrolled < 300) $('.go-top').fadeOut('slow');
+			  });
+			  
+			  $('.go-top').click(function () {
+			    $("html, body").animate({ scrollTop: "0" },  700);
+			  });
+
+			});
+		</script>
+<!-- End of Go to Top -->
+
+<!-- Start of Slider -->
+<div id="wowslider-container1">
+
+	<div class="ws_images">
+		<ul>
+			<li>
+				<img src="data1/images/_0.jpg" alt="" title="" id="wows1_0"/>
+			</li>
+			<li>
+				<a href="#"><img src="data1/images/_1.jpg" alt="Ново" title="Пролет 2016" id="wows1_1"/></a>
+			</li>
+			<li>
+				<a href="#"><img src="data1/images/_2.jpg" alt="Фустани" title="Фустани" id="wows1_2"/></a>
+			</li>
+			<li>
+				<a href="#"><img src="data1/images/_3.jpg" alt="Панталони" title="Панталони" id="wows1_3"/></a>
+			</li>
+			<li>
+				<a href="#"><img src="data1/images/_4.jpg" alt="Кошули" title="Кошули" id="wows1_4"/></a>
+			</li>
+			<li>
+				<a href="#"><img src="data1/images/_5.jpg" alt="Маици" title="Маици" id="wows1_5"/></a>
+			</li>
+			<li>
+				<a href="#"><img src="data1/images/_6.jpg" alt="Блузи" title="Блузи" id="wows1_6"/></a>
+			</li>
+			<li>
+				<a href="#"><img src="data1/images/_7.jpg" alt="image slider" title="Фармерки" id="wows1_7"/></a>
+			</li>
+			<li>
+				<a href="#"><img src="data1/images/_8.jpg" alt="Јакни" title="Јакни" id="wows1_8"/></a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="ws_bullets">
+		<div>
+			<a href="#" title="Каталог"><span><img src="data1/tooltips/_0.jpg" alt="Каталог"/>1</span></a>
+			<a href="#" title="Ново"><span><img src="data1/tooltips/_1.jpg" alt="Ново"/>2</span></a>
+			<a href="#" title="Фустани"><span><img src="data1/tooltips/_2.jpg" alt="Фустани"/>3</span></a>
+			<a href="#" title="Панталони"><span><img src="data1/tooltips/_3.jpg" alt="Панталони"/>4</span></a>
+			<a href="#" title="Маици"><span><img src="data1/tooltips/_4.jpg" alt="Маици"/>5</span></a>
+			<a href="#" title="Кошули"><span><img src="data1/tooltips/_5.jpg" alt="Кошули"/>6</span></a>
+			<a href="#" title="Блузи"><span><img src="data1/tooltips/_6.jpg" alt="Блузи"/>7</span></a>
+			<a href="#" title="Фармерки"><span><img src="data1/tooltips/_7.jpg" alt="Фармерки"/>8</span></a>
+			<a href="#" title="Јакни"><span><img src="data1/tooltips/_8.jpg" alt="Јакни"/>9</span></a>
+		</div>
+	</div>
+
+	<div class="ws_script" style="position:absolute;left:-99%"></div>
+	<div class="ws_shadow"></div>
+
+</div>	
+
+	<script type="text/javascript" src="engine1/wowslider.js"></script>
+	<script type="text/javascript" src="engine1/script.js"></script>
+
+<!-- End of Slider section -->
+
+
+
+<!-- Wrapper -->
+<div class="wrapper">
+
+<!-- Content 1 -->
+	<div class="wow bounceInRight" data-wow-duration="3s" data-wow-delay="0.5s">
+		<div class="content1">
+
+<!-- Category 1 -->
+			<div class="category1">
+				<div class="frame">
+					<div class="img"><img src="img/fustani.jpg" width="350px" height="450px"></div>
+					<div class="border"><h6>Фустани</h6></div>
+				</div>
+			</div>
+<!-- End of Category 1 -->
+
+<!-- Category 2 -->
+			<div class="category2">
+				<div class="frame">
+					<div class="img"><img src="img/pantaloni.jpg" width="350px" height="450px"></div>
+					<div class="border"><h6>Панталони</h6></div>
+				</div>
+			</div>
+<!-- End of Category 2 -->
+
+<!-- Banner -->
+			<div id="Stage" class="altra_banner" style="top: 25px; left: 55px;"></div>
+<!-- End of Banner -->
+
+			<hr>
+		</div>
+	</div>
+<!-- End of Content 1 -->
+
+<!-- Content 2 -->
+	<div class="wow bounceInLeft" data-wow-duration="2s" data-wow-delay="0.5s">
+		<div class="content2">
+
+<!-- Info -->
+			<div class="info">
+				<h4>ПРОЛЕТНО ЧУВСТВО</h4>
+				<br><br>
+				<p>Пролетта е во воздухот, тоа значи дека конечно може да почне да се носат полесни слоеви на лен и тексас од нашата<br><a href="#" target='_blank'>Пролетна Колекција.</a><br><br>
+				Имаме голем број на нови модели вклучувајќи прекрасна пролетна горна гардероба за секојдневните потреби,<br> сите дизајнирани за создавање на совршени комбинации со вашите омилени фармерки или панталони.</p>
+				<br>
+				<h4>Пролетта може да започне...</h4></p>
+			</div>
+<!-- End of Info -->
+
+<!-- Category 1 -->
+			<div class="category1" style="left: 90px;">
+				<div class="frame">
+					<div class="img"><img src="img/kosuli.jpg" width="350px" height="450px"></div>
+					<div class="border"><h6>Кошули</h6></div>
+				</div>
+			</div>
+<!-- End of Category 1 -->
+
+<!-- Category 2 -->
+			<div class="category2" style="left: 90px;">
+				<div class="frame">
+					<div class="img"><img src="img/maici.jpg" width="350px" height="450px"></div>
+					<div class="border"><h6>Маици</h6></div>
+				</div>
+			</div>
+<!-- End of Category 2 -->
+
+			<hr>
+		</div>	
+	</div>
+<!-- End of Content 2 -->
+
+<!-- Content 3-->
+	<div class="wow zoomIn" data-wow-duration="1s" data-wow-delay="0.5s">
+		<div class="content3">
+<!-- Slogan -->
+			<img src="img/model.png">
+			<div class="slogan">
+				<p>Алтра Мода е одраз на вас! Секси и уверена жена<br> која зрачи преку нејзината храбра гардероба.<br><br>	
+				Ние ви го носиме најдоброто од сите нешта, стил и безвременост,<br> 
+				а при тоа имајќи во предвид дека високиот квалитет<br>
+				не мора да доаѓа со висока цена.</p>
+			</div>
+<!-- End of Slogan -->
+
+			<hr>
+		</div>
+	</div>
+<!-- End of Content 3 -->
+
+<!-- Content 4 -->
+
+	<div class="wow slideInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+		<div class="content4">
+
+<!-- Category 1 -->
+			<div class="category1">
+				<div class="frame">
+					<div class="img"><img src="img/bluzi.jpg" width="350px" height="450px"></div>
+					<div class="border"><h6>Блузи</h6></div>
+				</div>
+			</div>
+<!-- End of Category 1 -->
+
+<!-- Category 2 -->
+			<div class="category2">
+				<div class="frame">
+					<div class="img"><img src="img/farmerki.jpg" width="350px" height="450px"></div>
+					<div class="border"><h6>Фармерки</h6></div>
+				</div>
+			</div>
+<!-- End of Category 2 -->
+
+<!-- Category 3 -->
+			<div class="category3">
+				<div class="frame">
+					<div class="img"><img src="img/jakni.jpg" width="350px" height="450px"></div>
+					<div class="border"><h6>Јакни</h6></div>
+				</div>
+			</div>
+<!-- End of Category 3 -->
+		<hr>
+		</div>
+	</div>
+<!-- End of Content 4 -->
+
+	
+</div>
+<!-- End of Wrapper -->
+
+<!-- Footer -->
+	<footer>
+<!-- Footer Container -->
+	<div class="footer-container">
+		<div class="contact-wrapper">
+			<div class="contact">
+				<ul>
+					<li><i class="fa fa-copyright" aria-hidden="true"></i>2016 алтра мода</li>
+					<li><a href="#">Контакт</a></li>
+				</ul>
+			</div>
+		</div>
+		
+<!-- Social -->
+		<div class="social-wrapper">
+			<div class="social">
+			    <a href="http://facebook.com/altramoda.mk" class="link facebook" target="_blank"><span class="fa fa-facebook-square"></span></a>
+			    <a href="#" class="link google-plus" target="_blank"><span class="fa fa-google-plus-square"></span></a>
+			    <a href="#" class="link instagram" target="_blank"><span class="fa fa-instagram"></span></a>
+			</div>
+		</div>
+<!-- End of Social -->
+
+<!-- Signature -->
+			<div class="signature-wrapper">
+			<div class="signature">
+				<div class="container">
+					<span>design and development by</span>
+					<a href="#"><img src="img/Signature.png"></a>
+				</div>
+			</div>
+			</div>
+<!-- End of Signature -->
+
+	</div>
+<!-- End of Footer Container -->
+
+	</footer>
+<!-- End of Footer -->
+	
+	</body>
+</html>

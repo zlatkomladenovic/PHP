@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Altra Moda</title>
+		<link rel="stylesheet" href="styles/global.css">
+		<link rel="stylesheet" href="styles/reset.css">
+		<link href='https://fonts.googleapis.com/css?family=Exo+2:400,100,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+		<script type="text/javascript" src="engine1/jquery.js"></script>
+</head>
+
+	<body>
+		
+		<header>
+			<a href="#">
+			<img src="images/Logo.png">
+			</a>
+			<hr>
+			<nav>
+				<ul>
+					<a href="#">
+						<li class="novo">ново</li>
+					</a>
+					<a href="#">
+						<li class="kolekcija">колекција</li>
+					</a>
+					<a href="#">
+						<li class="promocii">промоции</li>
+					</a>
+					<a href="#">
+						<li class="kontakt">контакт</li>
+					</a>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- <div class="slider">
+			<img src="images/Cover.jpg" >
+			<button>Каталог</button>
+		</div> -->
+
+		<div class="wrapper">
+			<div class="first">
+				<div class="fustani">
+					
+				</div>
+				<div class="pantaloni">
+					
+				</div>
+				<div class="banner">
+					<img src="images/Banner.jpg">
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>

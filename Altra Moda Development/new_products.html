@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Алтра Мода - Ново</title>
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" sizes="16x16">
+		<link rel="stylesheet" href="styles/new_products.css">
+		<link rel="stylesheet" href="styles/reset.css">
+		<link href='https://fonts.googleapis.com/css?family=Exo+2:400,100,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+		<link rel="stylesheet" href="styles/animate.css">
+		<script src="js/wow.min.js"></script>
+		<script type="text/javascript" src="js/header.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	</head>
+
+<!-- Header script -->
+		<script>
+			function init() {
+    			window.addEventListener('scroll', function(e){
+        		var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+            	shrinkOn = 50,
+            	header = document.querySelector("header");
+        			if (distanceY > shrinkOn) {
+            		classie.add(header,"smaller");
+        				} else {
+            		if (classie.has(header,"smaller")) {
+                	classie.remove(header,"smaller");
+           		    	}
+        			}
+    			});
+			}
+			window.onload = init();
+		</script>
+<!-- End of Header script-->
+
+<!-- Menu script -->
+		<script>
+			$(window).scroll(function(){
+    			$(".menu").css("top",Math.max(-95,400-$(this).scrollTop()));
+			});
+
+			function init() {
+    			window.addEventListener('scroll', function(e){
+        		var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+            	shrinkOn = 497,
+            	menu = document.querySelector(".menu");
+        			if (distanceY > shrinkOn) {
+            		classie.add(menu,"smaller");
+        				} else {
+            		if (classie.has(menu,"smaller")) {
+                	classie.remove(menu,"smaller");
+           		    	}
+        			}
+    			});
+			}
+			window.onload = init();
+		</script>
+<!-- End of Menu script -->
+
+<body>
+
+<!-- Start of Header -->
+	<header>
+		<a href="#">
+		<img src="img/Logo.png" alt="Altra Moda logo">
+		</a>
+		<hr>
+		<div class="nav-wrapper">
+			<nav>
+				<ul>
+					<li><a href="index.html">почетна</a></li>
+					<li><a href="new_products.html">ново</a></li>
+					<li><a href="#" target="_blank">колекција</a></li>
+					<li><a href="#" target="_blank">промоции</a></li>
+					<li><a href="#" target="_blank">контакт</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+<!-- End of Header -->
+
+<!-- Go to Top -->
+	<div class="go-top"></div>
+		<script>
+			$(function(){
+
+			  $(window).scroll(function(){
+			    var scrolled = $(window).scrollTop();
+			    if (scrolled > 300) $('.go-top').fadeIn('slow');
+			    if (scrolled < 300) $('.go-top').fadeOut('slow');
+			  });
+			  
+			  $('.go-top').click(function () {
+			    $("html, body").animate({ scrollTop: "0" },  700);
+			  });
+
+			});
+		</script>
+<!-- End of Go to Top -->
+	
+<!-- Cover -->
+	<div class="cover">
+		<div class="cover-container">
+			<h1>Пролет 2016</h1><hr>
+			<p>Обновете ја вашата сезонска гардероба<br>со нашата селекција од прекрасна<br>и удобна облека.</p>
+		</div>
+	</div>
+<!-- End of Cover -->
+	
+<!-- Menu -->
+	<div class="menu">
+		<div class="categories">
+			<ul>
+   				<li class="dropdown">
+        			<input type="checkbox" />
+      				<a href="#" data-toggle="dropdown">категории</a>
+      				<ul class="dropdown-menu">
+	        			<li><a href="#">Кошули</a></li>
+	       				<li><a href="#">Маици</a></li>
+	        			<li><a href="#">Блузи</a></li>
+	       			 	<li><a href="#">Фустани</a></li>
+	       			 	<li><a href="#">Панталони</a></li>
+	       			 	<li><a href="#">Фармерки</a></li>
+	       			 	<li><a href="#">Јакни</a></li>
+     		 		</ul>
+    			</li>
+			</ul>
+		</div>
+			
+		<div class="title">
+			<h1>Ново</h1>	
+		</div>
+		
+		<div class="sort">
+			<ul>
+   				<li class="dropdown">
+        			<input type="checkbox" />
+      				<a href="#" data-toggle="dropdown">сортирај</a>
+      				<ul class="dropdown-menu">
+	        			<li><a href="#">Цена (ниска>висока)</a></li>
+	       				<li><a href="#">Цена (висока>ниска)</a></li>
+	        			<li><a href="#">Најнови производи</a></li>
+     		 		</ul>
+    			</li>
+			</ul>
+		</div>
+
+		<hr>
+	</div>	
+<!-- End of Menu -->
+
+	<div class="wrapper">
+		
+		<ol>
+			<li id="product1" class="product">
+				<img src="new_products/Bluza.jpg" width="100%" height="400">
+			</li>
+			<li id="product2" class="product">
+				
+			</li>
+			<li id="product3" class="product">
+				
+			</li>
+			<li id="product4" class="product">
+				
+			</li>
+			<li id="product5" class="product">
+				
+			</li>
+			<li id="product6" class="product">
+				
+			</li>
+			<li id="product7" class="product">
+				
+			</li>
+			<li id="product8" class="product">
+				
+			</li>
+			<li id="product9" class="product">
+				
+			</li>
+			<li id="product10" class="product">
+				
+			</li>
+			<li id="product11" class="product">
+				
+			</li>
+			<li id="product12" class="product">
+				
+			</li>
+		</ol>
+
+	</div>
+
+</body>

@@ -1,0 +1,4 @@
+font za kategorii exo 2 light 48 pt sharp
+rectangle d8d9dd opacity 80%
+
+product font bernardo moda contrast 60 pt sharp

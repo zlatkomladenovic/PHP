@@ -1,0 +1,16 @@
+kategorii:
+ -pantaloni s-xxl
+ -bluzi s-xxl
+ -palta s-xxl
+ -kosuli s-xxl
+ -farmerki s-xxl
+ -fustani s-xxl
+ -maici s-xxl
+
+telefoni
+ 047 610 152
+
+adresa
+ Marjan Bozhinovski 27 
+
+golemini
